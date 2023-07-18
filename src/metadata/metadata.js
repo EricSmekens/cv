@@ -1,67 +1,78 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Eric Smekens',
+  title: 'Software Engineer',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Residence': '<a href="https://www.google.nl/maps/place/Dorst/"><i class="fa fa-home fact-icon"></i>Dorst</a>',
+    'LinkedIn': `<a href="https://www.linkedin.com/in/eric-smekens-b587b968/"><i class="fa-brands fa-linkedin fact-icon"></i>Eric Smekens</a>`,
+    'GitHub': `<a href="https://github.com/EricSmekens"><i class="fa-brands fa-github fact-icon"></i>EricSmekens</a>`,
+    'Email': '<a href="mailto:ericsmekens@msn.com"><i class="fa fa-envelope fact-icon"></i>ericsmekens@msn.com</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['C#', 100],
+    ['SQL', 100],
+    ['RabbitMQ', 75],
+    ['Node.js', 75],
+    ['Kubernetes', 75],
+    ['Angular', 50]
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'Lead Developer at CM.com',
+      period: '2016 - 2023',
+      skills: ['C#', 'SQL', 'RabbitMQ', 'Angular'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+Working in the Messaging team within CM.com as Lead Developer. Working on several exciting and challenging projects. WhatsApp for Business, Operator Determination, Prices and Message Routing.
+
+Using C# (.NET Framework/netcore) daily together with MS SQL, thinking about how we will process, store route millions of messages a day. Writing frontends (Angular/React/Vue.js) to provide internal tooling for the organisation, and using Kubernetes and helm to host hundreds of containers.
+
+Lead Developer (6B) 01-09-2022 -->
+
+Lead Developer (6A) 01-09-2021 <-> 01-09-2022
+
+Sr. Developer (level 5B) - 01-09-2019 <-> 31-08-2021
+
+Sr. Developer (level 5A) - 01-09-2018 <-> 31-08-2019
+
+Developer (level 4A) - 01-01-2017 <-> 31-08-2018
+
+Jr. Developer (level 3A) - 01-09-2016 <-> 31-12-2016
+
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'Software Engineer at Krohne Oil & Gas',
+      period: '2013 – 2016',
+      skills: ['C#', 'Node.js', 'JavaScript'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Development of HMI software for oil and gas projects.
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: 'Graduation Internship',
+      period: '2013',
+      skills: ['C++', 'Node.js', 'JavaScript'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+Implemented the Webinos Vehicle API based on OBD-II.
+And created two Node.js packages for communicating with the OBD protocol. 
 `
     }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'JSEP',
+      skills: ['JavaScript', 'Node.js'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+Used this as a dependency in my first job. Spent some free time on it, to learn more and try to extend it. 
+Eventually became a collaborator, and now the maintainer of the package. Thanks to the original author as well for the great work.
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: 'OBD',
+      skills: ['C++', 'Node.js'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+Part of my graduation internship. It perfectly describes the way how I like to work. 
+Learning obd and node.js at the same time, and making something that is shareable to the rest of the community. 
+It is definitely not the best package out there, but it is still a place of shareable information.
 `
     }
   ]
