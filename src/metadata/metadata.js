@@ -21,9 +21,13 @@ module.exports = {
       period: '2016 - 2023',
       skills: ['C#', 'SQL', 'RabbitMQ', 'Angular'],
       contents: `
-Working in the Messaging team within CM.com as Lead Developer. Working on several exciting and challenging projects. WhatsApp for Business, Operator Determination, Prices and Message Routing.
+Working in the Messaging team within CM.com as Lead Developer. Biggest challenge here is: Complex domain knowledge combined with scale.
 
-Using C# (.NET Framework/netcore) daily together with MS SQL, thinking about how we will process, store route millions of messages a day. Writing frontends (Angular/React/Vue.js) to provide internal tooling for the organisation, and using Kubernetes and helm to host hundreds of containers.
+Working on several exciting projects: WhatsApp, SMS, Operator Determination, Prices and Smart Message Routing.
+Using C# (.NET Framework/netcore) daily together with MS SQL, thinking about how we will process, store route millions of messages a day. 
+Writing frontends (Angular/React/Vue.js) to provide internal tooling for the organisation, and using Kubernetes and helm to host hundreds of containers.
+
+Also guiding several other colleagues to grow their personal skills as well, and also communicating and aligning with several big partners as well. (Meta, Vodafone, etc.)
 
 Lead Developer (6B) 01-09-2022 -->
 
@@ -45,6 +49,8 @@ Jr. Developer (level 3A) - 01-09-2016 <-> 31-12-2016
       skills: ['C#', 'Node.js', 'JavaScript'],
       contents: `
 Development of HMI software for oil and gas projects.
+Working with a small team, on a WPF application that allowed colleagues in the project department to design Oil/Gas/Water systems.
+The resulting design, would then be translated to a Node.js/C# backend with a Knockout.js frontend, where the customers would then be able to monitor and control pipelines etc.
 `
     },
     {
