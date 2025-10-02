@@ -10,12 +10,25 @@ module.exports = {
   skills: [
     ['C#', 100],
     ['SQL', 100],
-    ['RabbitMQ', 75],
+    ['TypeScript', 100],
     ['Node.js', 75],
+    ['RabbitMQ', 75],
     ['Kubernetes', 75],
-    ['Angular', 50]
+    ['Angular', 50],
+    ['MongoDB', 50],
+    ['Flowable', 50],
   ],
   positions: [
+    {
+      title: 'Software Engineer at Enexis Netbeheer',
+      period: '2023 – Present',
+      skills: ['Node.js', 'TypeScript', 'MongoDB', 'Flowable'],
+      contents: `
+Development of several solutions combining Node.js/TypeScript with Flowable (Business Process Management).
+Working closely with different teams to create, improve, and maintain complex process flows, within the scope of small customers connected on the energy grid.
+Every mutation on meters and connections (gas and electricity) in Enexis' provinces are processed through these flows, and also responsible for migrating old flows to this new BPM system so that old architecture can be replaced.
+`
+    },
     {
       title: 'Lead Developer at CM.com',
       period: '2016 - 2023',
@@ -68,8 +81,8 @@ And created two Node.js packages for communicating with the OBD protocol.
       header: 'JSEP',
       skills: ['JavaScript', 'Node.js'],
       contents: `
-Used this as a dependency in my first job. Spent some free time on it, to learn more and try to extend it. 
-Eventually became a collaborator, and now the maintainer of the package. Thanks to the original author as well for the great work.
+Used this as a dependency in my first job. Spent some spare time on it, to learn more and try to extend it. 
+Eventually became a collaborator, and now the maintainer of the package. Thanks to the original author as well for the great work, and also for the open source community that works on it.
 `
     },
     {
